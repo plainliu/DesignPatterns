@@ -27,12 +27,39 @@
     <ClInclude Include="Lexi.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiGlyph\LexiCharacter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiGlyph\LexiGlyph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiGlyph\LexiRectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiGlyph\LexiRow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiGlyph\LexiWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Lexi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiGlyph\LexiCharacter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiGlyph\LexiRectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiGlyph\LexiRow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiGlyph\LexiWindow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

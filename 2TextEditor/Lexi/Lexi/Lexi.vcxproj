@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,12 +148,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LexiGlyph\LexiCharacter.h" />
+    <ClInclude Include="LexiGlyph\LexiGlyph.h" />
     <ClInclude Include="Lexi.h" />
+    <ClInclude Include="LexiGlyph\LexiRow.h" />
+    <ClInclude Include="LexiGlyph\LexiWindow.h" />
+    <ClInclude Include="LexiGlyph\LexiRectangle.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
+    <ClCompile Include="LexiGlyph\LexiRow.cpp" />
+    <ClCompile Include="LexiGlyph\LexiWindow.cpp" />
+    <ClCompile Include="LexiGlyph\LexiRectangle.cpp" />
     <ClCompile Include="Lexi.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
