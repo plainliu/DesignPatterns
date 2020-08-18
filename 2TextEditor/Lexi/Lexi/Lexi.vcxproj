@@ -148,6 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LexiFormatting\LexiComposition.h" />
+    <ClInclude Include="LexiFormatting\LexiCompositor.h" />
+    <ClInclude Include="LexiFormatting\LexiSimpleCompositor.h" />
     <ClInclude Include="LexiGlyph\LexiCharacter.h" />
     <ClInclude Include="LexiGlyph\LexiGlyph.h" />
     <ClInclude Include="Lexi.h" />
@@ -159,6 +162,9 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LexiFormatting\LexiComposition.cpp" />
+    <ClCompile Include="LexiFormatting\LexiCompositor.cpp" />
+    <ClCompile Include="LexiFormatting\LexiSimpleCompositor.cpp" />
     <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
     <ClCompile Include="LexiGlyph\LexiRow.cpp" />
     <ClCompile Include="LexiGlyph\LexiWindow.cpp" />

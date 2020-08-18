@@ -42,6 +42,15 @@
     <ClInclude Include="LexiGlyph\LexiWindow.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiFormatting\LexiComposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiFormatting\LexiCompositor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiFormatting\LexiSimpleCompositor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +69,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiGlyph\LexiWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiFormatting\LexiCompositor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiFormatting\LexiComposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiFormatting\LexiSimpleCompositor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
