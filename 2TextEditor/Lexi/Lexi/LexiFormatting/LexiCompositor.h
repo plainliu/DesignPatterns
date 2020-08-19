@@ -8,5 +8,5 @@ public:
 	void SetComposition( LexiComposition* );
 
 	// 何时格式化
-	virtual void Compose();
+	virtual void Compose( );
 };
