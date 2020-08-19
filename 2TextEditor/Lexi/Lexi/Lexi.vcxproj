@@ -166,6 +166,7 @@
     <ClCompile Include="LexiFormatting\LexiCompositor.cpp" />
     <ClCompile Include="LexiFormatting\LexiSimpleCompositor.cpp" />
     <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
+    <ClCompile Include="LexiGlyph\LexiGlyph.cpp" />
     <ClCompile Include="LexiGlyph\LexiRow.cpp" />
     <ClCompile Include="LexiGlyph\LexiWindow.cpp" />
     <ClCompile Include="LexiGlyph\LexiRectangle.cpp" />

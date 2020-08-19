@@ -13,7 +13,7 @@ public:
 	//virtual bool Intersects( Const Point& ) = 0;
 
 	// ½á¹¹
-	//virtual void Insert( Glyph*, int ) = 0;
+	virtual void Insert( LexiGlyph*, int );
 	//virtual Vvoid Remove( Glyph* ) = 0;
 	//virtual Glyph* Child( int ) = 0;
 	//virtual Glyph* Parent( ) = 0;
