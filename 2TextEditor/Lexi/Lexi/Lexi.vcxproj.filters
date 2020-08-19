@@ -51,6 +51,15 @@
     <ClInclude Include="LexiFormatting\LexiSimpleCompositor.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiDecorate\LexiMonoGlyph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiDecorate\LexiBorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiDecorate\LexiScroller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -81,6 +90,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiGlyph\LexiGlyph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiDecorate\LexiMonoGlyph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiDecorate\LexiBorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiDecorate\LexiScroller.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
