@@ -3,5 +3,5 @@
 
 void LexiCharacter::Draw( LexiWindow* w )
 {
-	w->DrawCharactor( c );
+	w->DrawCharacter( c );
 }

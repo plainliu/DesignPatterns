@@ -158,7 +158,7 @@
     <ClInclude Include="LexiGlyph\LexiGlyph.h" />
     <ClInclude Include="Lexi.h" />
     <ClInclude Include="LexiGlyph\LexiRow.h" />
-    <ClInclude Include="LexiGlyph\LexiWindow.h" />
+    <ClInclude Include="LexiWindow\LexiWindow.h" />
     <ClInclude Include="LexiGlyph\LexiRectangle.h" />
     <ClInclude Include="LexiGUI\LexiGUIFactory.h" />
     <ClInclude Include="LexiGUI\LexiMotifFactory.h" />
@@ -176,7 +176,7 @@
     <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
     <ClCompile Include="LexiGlyph\LexiGlyph.cpp" />
     <ClCompile Include="LexiGlyph\LexiRow.cpp" />
-    <ClCompile Include="LexiGlyph\LexiWindow.cpp" />
+    <ClCompile Include="LexiWindow\LexiWindow.cpp" />
     <ClCompile Include="LexiGlyph\LexiRectangle.cpp" />
     <ClCompile Include="Lexi.cpp" />
     <ClCompile Include="LexiGUI\LexiMotifFactory.cpp" />

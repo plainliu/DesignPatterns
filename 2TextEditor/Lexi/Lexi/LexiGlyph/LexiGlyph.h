@@ -1,7 +1,7 @@
 #pragma once
 
 #include "stdafx.h"
-#include "LexiWindow.h"
+#include "LexiWindow\LexiWindow.h"
 
 class LexiGlyph {
 public:

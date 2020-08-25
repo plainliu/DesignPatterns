@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "LexiWindow.h"
 
-void LexiWindow::DrawCharactor( char c )
+void LexiWindow::DrawCharacter( char c )
 {
 }
 

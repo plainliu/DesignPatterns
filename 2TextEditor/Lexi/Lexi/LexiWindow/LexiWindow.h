@@ -4,6 +4,6 @@
 
 class LexiWindow {
 public:
-	void DrawCharactor( char );
+	void DrawCharacter( char );
 	void DrawRect( int, int, int, int );
 };
