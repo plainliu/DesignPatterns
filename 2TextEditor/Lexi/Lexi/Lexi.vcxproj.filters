@@ -60,6 +60,12 @@
     <ClInclude Include="LexiDecorate\LexiScroller.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiGUI\LexiGUIFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiGUI\LexiMotifFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -99,6 +105,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiDecorate\LexiScroller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiGUI\LexiMotifFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
