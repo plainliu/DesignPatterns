@@ -66,6 +66,24 @@
     <ClInclude Include="LexiWindow\LexiWindow.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiWindow\LexiApplicationWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiWindow\LexiIconWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiWindow\LexiWindowImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiWindow\LexiWinWindowImp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiWindow\LexiWindowSystemFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiWindow\LexiWinWindowSystemFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -108,6 +126,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiWindow\LexiWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiWindow\LexiApplicationWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiWindow\LexiIconWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiWindow\LexiWinWindowImp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiWindow\LexiWinWindowSystemFactory.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

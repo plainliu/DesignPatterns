@@ -158,10 +158,16 @@
     <ClInclude Include="LexiGlyph\LexiGlyph.h" />
     <ClInclude Include="Lexi.h" />
     <ClInclude Include="LexiGlyph\LexiRow.h" />
+    <ClInclude Include="LexiWindow\LexiApplicationWindow.h" />
+    <ClInclude Include="LexiWindow\LexiIconWindow.h" />
     <ClInclude Include="LexiWindow\LexiWindow.h" />
     <ClInclude Include="LexiGlyph\LexiRectangle.h" />
     <ClInclude Include="LexiGUI\LexiGUIFactory.h" />
     <ClInclude Include="LexiGUI\LexiMotifFactory.h" />
+    <ClInclude Include="LexiWindow\LexiWindowImp.h" />
+    <ClInclude Include="LexiWindow\LexiWindowSystemFactory.h" />
+    <ClInclude Include="LexiWindow\LexiWinWindowImp.h" />
+    <ClInclude Include="LexiWindow\LexiWinWindowSystemFactory.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -176,10 +182,14 @@
     <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
     <ClCompile Include="LexiGlyph\LexiGlyph.cpp" />
     <ClCompile Include="LexiGlyph\LexiRow.cpp" />
+    <ClCompile Include="LexiWindow\LexiApplicationWindow.cpp" />
+    <ClCompile Include="LexiWindow\LexiIconWindow.cpp" />
     <ClCompile Include="LexiWindow\LexiWindow.cpp" />
     <ClCompile Include="LexiGlyph\LexiRectangle.cpp" />
     <ClCompile Include="Lexi.cpp" />
     <ClCompile Include="LexiGUI\LexiMotifFactory.cpp" />
+    <ClCompile Include="LexiWindow\LexiWinWindowImp.cpp" />
+    <ClCompile Include="LexiWindow\LexiWinWindowSystemFactory.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
