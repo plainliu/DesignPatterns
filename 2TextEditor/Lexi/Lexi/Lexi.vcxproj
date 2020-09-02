@@ -148,6 +148,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="LexiCommand\LexiCommand.h" />
+    <ClInclude Include="LexiCommand\LexiPasteCommand.h" />
+    <ClInclude Include="LexiCommand\LexiQuitCommand.h" />
+    <ClInclude Include="LexiCommand\LexiSaveCommand.h" />
     <ClInclude Include="LexiDecorate\LexiBorder.h" />
     <ClInclude Include="LexiDecorate\LexiMonoGlyph.h" />
     <ClInclude Include="LexiDecorate\LexiScroller.h" />
@@ -173,6 +177,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="LexiCommand\LexiCommand.cpp" />
+    <ClCompile Include="LexiCommand\LexiPasteCommand.cpp" />
+    <ClCompile Include="LexiCommand\LexiQuitCommand.cpp" />
+    <ClCompile Include="LexiCommand\LexiSaveCommand.cpp" />
     <ClCompile Include="LexiDecorate\LexiBorder.cpp" />
     <ClCompile Include="LexiDecorate\LexiMonoGlyph.cpp" />
     <ClCompile Include="LexiDecorate\LexiScroller.cpp" />

@@ -84,6 +84,18 @@
     <ClInclude Include="LexiWindow\LexiWinWindowSystemFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiCommand\LexiCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiCommand\LexiSaveCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiCommand\LexiPasteCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiCommand\LexiQuitCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -138,6 +150,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiWindow\LexiWinWindowSystemFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiCommand\LexiSaveCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiCommand\LexiPasteCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiCommand\LexiCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiCommand\LexiQuitCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
