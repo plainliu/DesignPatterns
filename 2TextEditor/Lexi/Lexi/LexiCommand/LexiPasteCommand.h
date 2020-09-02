@@ -10,6 +10,7 @@ public:
 	~LexiPasteCommand( );
 
 	void Execute( );
+	void Unexecute( );
 
 private:
 

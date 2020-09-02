@@ -8,3 +8,8 @@ LexiCommand::LexiCommand( )
 LexiCommand::~LexiCommand( )
 {
 }
+
+bool LexiCommand::Reversible( )
+{
+	return false;
+}

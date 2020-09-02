@@ -12,3 +12,7 @@ LexiPasteCommand::~LexiPasteCommand( )
 void LexiPasteCommand::Execute( )
 {
 }
+
+void LexiPasteCommand::Unexecute( )
+{
+}
