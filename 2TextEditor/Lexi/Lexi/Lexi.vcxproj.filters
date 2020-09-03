@@ -96,6 +96,15 @@
     <ClInclude Include="LexiCommand\LexiQuitCommand.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LexiIterator\LexiIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiIterator\LexiArrayIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LexiIterator\LexiListIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -162,6 +171,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LexiCommand\LexiQuitCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiIterator\LexiArrayIterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LexiIterator\LexiListIterator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

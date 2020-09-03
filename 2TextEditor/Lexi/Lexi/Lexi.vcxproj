@@ -162,6 +162,9 @@
     <ClInclude Include="LexiGlyph\LexiGlyph.h" />
     <ClInclude Include="Lexi.h" />
     <ClInclude Include="LexiGlyph\LexiRow.h" />
+    <ClInclude Include="LexiIterator\LexiArrayIterator.h" />
+    <ClInclude Include="LexiIterator\LexiIterator.h" />
+    <ClInclude Include="LexiIterator\LexiListIterator.h" />
     <ClInclude Include="LexiWindow\LexiApplicationWindow.h" />
     <ClInclude Include="LexiWindow\LexiIconWindow.h" />
     <ClInclude Include="LexiWindow\LexiWindow.h" />
@@ -190,6 +193,8 @@
     <ClCompile Include="LexiGlyph\LexiCharacter.cpp" />
     <ClCompile Include="LexiGlyph\LexiGlyph.cpp" />
     <ClCompile Include="LexiGlyph\LexiRow.cpp" />
+    <ClCompile Include="LexiIterator\LexiArrayIterator.cpp" />
+    <ClCompile Include="LexiIterator\LexiListIterator.cpp" />
     <ClCompile Include="LexiWindow\LexiApplicationWindow.cpp" />
     <ClCompile Include="LexiWindow\LexiIconWindow.cpp" />
     <ClCompile Include="LexiWindow\LexiWindow.cpp" />
